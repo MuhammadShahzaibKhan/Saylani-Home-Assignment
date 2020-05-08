@@ -1,0 +1,429 @@
+*{
+    font-family: 'Merriweather' , 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ /* Topbar Style */
+
+.topbar{
+    background-color: #316DC3;
+    padding: 5px;
+}
+
+ul li{
+     display: inline-block;
+} 
+
+.row{
+    margin: 0 auto;
+}
+
+.social-media{
+    margin: 2px 0px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 80px;
+}
+
+.social-media li{
+    padding: 4px;
+    margin: 0 3px;
+}
+
+.txt{
+    padding: 7px 50px;
+}
+
+.txt span{
+    font-size: 14px;
+    color: white;
+}
+
+.topbtn button{
+    border: none;
+    padding: 5px 8px;
+    margin-top: 6px;
+    font-size: 11px;
+    color: #427900;
+}
+
+/* Topbar Style End */
+
+/* Navbar Style */
+
+.navbar1{
+    display: inline-flex;
+    justify-content: space-evenly;
+    
+}
+
+.logo img{
+    width: 200px;
+}
+
+.dropbtn {
+    background-color: #fff;
+    color: #333333;
+    padding: 8px 15px;
+    font-size: 13px;
+    border: none;
+    border-radius: 30px;
+    margin: 12px 0;
+    font-weight: bold;
+  }
+
+  .down-angle{
+      color: #333333;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+  }
+  
+  .dropdown-content a:hover {background-color: #316DC3; color: #fff;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #316DC3; color: #fff; transition: 0.4s;}
+
+  .dropdown:hover .down-angle {color: #fff;}
+
+  .homebtn{
+    background-color: #316DC3;
+    color: #fff;
+    padding: 8px 17px;
+    font-size: 13px;
+    border: none;
+    border-radius: 30px;
+    margin: 12px 0;
+}
+
+/* Navbar Style End */
+
+/* Headline Style Start */
+ 
+.headline{
+    margin: 12px 0px 10px;
+    padding: 4px;
+    background-color: #316DC3;
+}
+
+.headline p{
+    color: #fff;
+    font-size: 14px;
+    height: 8px;
+}
+
+.date{
+    color: #00FF00;
+}
+
+.blue{
+    color: #0000FF;
+}
+
+/* Headline Style End */
+
+/* Introduction style start */
+
+.intro-background{
+    background-color: #f7f8fa;
+}
+
+.intro-head{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 40px;
+    font-family: 'Merriweather' !important;
+}
+
+.introheading{
+    color: #316DC3;
+    font-weight: bold;
+}
+
+.intro-head span{
+    color: #427900 ;
+}
+
+.introimg{
+    padding-right: 4px;
+}
+
+.intro-txt{
+    padding-left: 50px;
+    width: 90%;
+    font-size: 15px;
+    text-align: justify;
+    color: #666666;
+    line-height: 1.9;
+}
+
+/* Introduction Style End */
+
+/* Counterbar Style Start */
+
+.counterbar{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #2655e8;
+    height: 250px;
+    margin-top: 80px;
+    padding: 0 250px;
+}
+
+.counterdiv{
+    position: relative;
+    top: 50px;
+    margin: 10px 15px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.counterdiv span{
+    color: #00FF00;
+    font-size: 17px;
+}
+
+.counterdiv img{
+    width: 40px;
+}
+
+/* Counterbar Style End */
+
+/* Doing's Style Start */
+
+.doing-container{
+    padding: 60px 15px;
+}
+
+.doing{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 32px;
+    font-family: 'Merriweather' !important;
+    padding-bottom: 30px;
+}
+
+.doing-txt{
+    color: #316DC3;
+    font-weight: bold;
+}
+
+.doing span{
+    color: #427900;
+}
+
+.boxes-row{
+    display: flex;
+    justify-content: flex-start;
+    justify-content: center;
+}
+
+.boxes{
+    padding: 30px;
+    margin: 0px 15px 30px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0px 8px 15px 0px;
+}
+
+.boxes img{
+    width: 70px;
+}
+
+.boxes h4{
+    margin: 20px 0px 10px;
+}
+
+/* Doing's End */
+
+/* About Events And Mission Start */
+
+.event-container{
+    padding: 60px 15px 30px;
+}
+
+.event-heading{
+    margin: 0px 0px 10px;
+    padding: 0px 0px 10px;
+}
+
+.event-heading h3{
+    color: #316DC3;
+}
+
+.show-in-line1{
+    margin: 0px 0px 20px;
+    padding: 15px;
+}
+
+.show-in-line{
+    display: inline-block;
+    margin: 0px 0px 20px;
+    padding: 0px 15px;
+}
+
+.show-in-line h4{
+    font-size: 15px;
+    color: #316DC3;
+    font-weight: bold;
+}
+
+.gallery-container{
+    padding: 60px 0px 40px;
+}
+
+.gallery-heading{
+    text-align: center;
+}
+
+.gallery-heading h2{
+    color: #316DC3;
+}
+
+.gallery-heading span{
+    color: #427900;
+}
+
+.gallery-images img{
+    width: 200px;
+}
+
+/* About Events And Mission End */
+
+/* Footer style start */
+
+.footer-color{
+    background-color: #25272e;
+}
+
+.footer-container{
+    padding: 70px 15px 40px;
+}
+
+.footer-div{
+    margin: 0px 0px 30px;
+}
+
+.footer-txt{
+    color: #BBBBBB;
+    font-size: 14px;
+}
+
+.ul-m{
+    margin: 5px 0px 0px -5px;
+}
+
+.li-pad{
+    padding: 0px 8px 7px;
+}
+
+.font-colour{
+    color: green;
+}
+
+.useful-link{
+    margin: 0px 0px 20px;
+    padding: 0px 0px 10px;
+}
+
+.useful-link h5{
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.useful-link img{
+    width: 95%;
+}
+
+.connect h5{
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0px 0px 15px;
+}
+
+.connect-ul a{
+    background-color: #316DC3;
+    border-radius: 30px;
+    margin: 2px 7px 0px 0px;
+}
+
+.fb-padd{
+    padding: 7px 12px;
+}
+
+.tweet-padd{
+    padding: 7px 10px;
+}
+
+.insta-padd{
+    padding: 7px 10px;
+}
+
+.youtube-padd{
+    padding: 7px 9px;
+}
+
+.connect-font-colour{
+    color: #ffffff;
+}
+
+.footer-bottom{
+    background-color: #316DC3;
+}
+
+.bottom-container{
+    padding-top: 10px;
+    padding-bottom: 2px;
+}
+
+.bottom-foot{
+    color: #ffffff;
+}
+
+.bottom-foot p{
+    font-size: 11px;
+}
+
+/* Scroll To Up style Start */
+
+.allthewayup{
+    color: #fff;
+    font-size: 42px;
+    text-align: center;
+    width: 60px;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 2px;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    height: 60px;
+}
+
+.allthewayup:hover{
+    color: #fff;
+}
+
+/* Scroll To Up style End */
